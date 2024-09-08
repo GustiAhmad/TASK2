@@ -1,13 +1,13 @@
 public class CustomerApp extends Customer {
     public static void main(String[] args) throws Exception{
     
-    Customer customer = new Customer("fidaa",3000,"marahrofidah7@gmail.com");
+    Customer customer = new Customer("gstahmad",3000,"muttahidbilhaq18@gmail.com");
 
     System.out.println("Name : "+customer.getName());
     System.out.println("Credit Limit : "+customer.getCreditLimit());
     System.out.println("Email : "+customer.getEmail());
 
-    Customer customer2 = new Customer("fidaa","marahrofidah7@gmail.com");
+    Customer customer2 = new Customer("gstahmad","muttahidbilhaq18@gmail.com");
 
     System.out.println("Name : "+customer2.getName());
     System.out.println("Credit Limit : "+customer2.getCreditLimit());
